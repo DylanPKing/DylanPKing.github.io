@@ -1,0 +1,49 @@
+body {
+	background-image: url('./images/keyboard.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+div {
+	display: block;
+}
+
+div.headerBar {
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	position: fixed;
+	background-color: rgb(201, 143, 255);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+	box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+	z-index: 1;
+}
+
+a.headerLink {
+	color: rgb(250, 250, 250);
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7), 1px 1px 4px rgba(0, 0, 0, 0.19);
+	text-decoration-line: none;
+	font-size: 200%;
+	padding: 2%;
+	width: auto;
+}
+
+div.textBlock {
+	position: relative;
+	width: fit-content;
+	border: 15px solid rgb(215, 173, 255);
+	background-color: rgb(215, 173, 255);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#intro {
+	top: 400px;
+	left: 50%;
+}
+
+#spaceTest {
+	top: 1000px;
+	left: 10%;
+}
