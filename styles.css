@@ -14,6 +14,7 @@
 	padding: 0;
 	overflow: hidden;
 	background-color: #333;
+	z-index: 2;
 }
   
 li.header-link-container {
@@ -34,13 +35,32 @@ li a.header-link:hover {
 }
 
 #about-container {
+	position: relative;
+	overflow: hidden;
 	width: 100%;
+	background-color: aliceblue;
+	z-index: 1;
 }
 
 #about {
 	float: right;
 	margin-top: 8%;
 	margin-right: 6%;
+	margin-bottom: 8%;
+}
+
+#skills-container {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	background-color: rgb(95, 95, 95);
+}
+
+#work-container {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	background-color: aliceblue;
 }
 
 #work {
@@ -51,17 +71,39 @@ li a.header-link:hover {
 
 body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: rgb(95, 95, 95);
+	padding: 0;
+  	margin: 0;
+	z-index: 0;
 }
 
-div.body-of-text {
-	background-color: rgb(95, 95, 95);
-	color: azure;
+div.box {
+	position: relative;
 	margin: 2%;
-	width: 40%;
 	border-radius: 10px;
 	padding: 2%;
 	padding-top: 0;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.box-skill {
+	display: inline-block;
+	width: 25%;
+}
+
+
+div.body-of-text {
+	width: 40%;
+}
+
+div.on-white {
+	background-color: rgb(95, 95, 95);
+	color: azure;
+}
+
+div.on-grey {
+	background-color: aliceblue;
+	color: rgb(70, 70, 70)
 }
 
 h1 {
