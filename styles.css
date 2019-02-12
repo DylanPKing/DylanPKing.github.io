@@ -26,9 +26,13 @@ li a.header-link:hover {
 	background-color: #111;
 }
 
+#about-container {
+	width: 100%;
+}
+
 #about {
 	float: right;
-	margin-top: 10%;
+	margin-top: 8%;
 	margin-right: 8%;
 }
 
@@ -42,6 +46,7 @@ div.body-of-text {
 	margin: 2%;
 	width: 40%;
 	border: 3px solid rgb(180, 180, 180);
+	border-radius: 10px;
 	padding: 3%;
 }
 
