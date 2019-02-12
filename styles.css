@@ -1,49 +1,59 @@
-body {
-	background-image: url('./images/keyboard.jpg');
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-}
-
-div {
-	display: block;
-}
-
-div.headerBar {
-	width: 100%;
-	top: 0px;
-	left: 0px;
+#header-container {
 	position: fixed;
-	background-color: rgb(201, 143, 255);
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	top: 0;
+	left: 0;
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+  
+li.header-link-container {
+	float: right;
+}
+  
+li a.header-link {
+	display: block;
+	color: white;
 	text-align: center;
-	box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
-	z-index: 1;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+  
+li a.header-link:hover {
+	background-color: #111;
 }
 
-a.headerLink {
-	color: rgb(250, 250, 250);
-	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7), 1px 1px 4px rgba(0, 0, 0, 0.19);
-	text-decoration-line: none;
-	font-size: 200%;
-	padding: 2%;
-	width: auto;
+#about {
+	float: right;
+	margin-top: 10%;
+	margin-right: 8%;
 }
 
-div.textBlock {
-	position: relative;
-	width: fit-content;
-	border: 15px solid rgb(215, 173, 255);
-	background-color: rgb(215, 173, 255);
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#intro {
-	top: 400px;
-	left: 50%;
+div.body-of-text {
+	background-color: rgb(95, 95, 95);
+	color: azure;
+	margin: 2%;
+	width: 40%;
+	border: 3px solid rgb(180, 180, 180);
+	padding: 3%;
 }
 
-#spaceTest {
-	top: 1000px;
-	left: 10%;
+h1 {
+	font-size: 300%;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	text-align: justify;
 }
