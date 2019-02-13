@@ -17,9 +17,7 @@
 	z-index: 2;
 }
   
-li.header-link-container {
-	float: right;
-}
+li.header-link-container { float: right; }
   
 li a.header-link {
 	display: block;
@@ -30,9 +28,7 @@ li a.header-link {
 	margin-top: -0.1%;
 }
   
-li a.header-link:hover {
-	background-color: #111;
-}
+li a.header-link:hover { background-color: #111; }
 
 #about-container {
 	position: relative;
@@ -42,31 +38,49 @@ li a.header-link:hover {
 	z-index: 1;
 }
 
-#about {
-	float: right;
-	margin-top: 8%;
-	margin-right: 6%;
-	margin-bottom: 8%;
-}
-
-#skills-container {
+#skills {
 	overflow: hidden;
 	position: relative;
 	width: 100%;
 	background-color: rgb(95, 95, 95);
+	text-align: center;
+}
+
+#interests-container {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	background-color: aliceblue;
+}
+
+#project-container {
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	background-color: rgb(105, 105, 105);
 }
 
 #work-container {
 	position: relative;
 	overflow: hidden;
 	width: 100%;
-	background-color: aliceblue;
+	background-color: rgb(95, 95, 95);
 }
 
 #work {
-	float: left;
+	float: right;
 	margin-top: 10%;
-	margin-left: 6%;
+}
+
+div.on-left {
+	float: left;
+	margin-left: 6% !important;
+}
+
+div.on-right {
+	float: right;
+	margin-right: 6% !important;
 }
 
 body {
@@ -88,12 +102,15 @@ div.box {
 
 div.box-skill {
 	display: inline-block;
-	width: 25%;
+	width: 20%;
+	margin: 1%;
 }
 
 
 div.body-of-text {
 	width: 40%;
+	margin-top: 8%;
+	margin-bottom: 8%;
 }
 
 div.on-white {
@@ -103,7 +120,13 @@ div.on-white {
 
 div.on-grey {
 	background-color: aliceblue;
-	color: rgb(70, 70, 70)
+	color: rgb(70, 70, 70);
+}
+
+div.project-container-class {
+	overflow: hidden;
+	display: inline-block;
+	width: 20%;
 }
 
 h1 {
@@ -111,10 +134,6 @@ h1 {
 	text-align: center;
 }
 
-h2 {
-	text-align: center;
-}
+h2 { text-align: center; }
 
-p {
-	text-align: justify;
-}
+p { text-align: justify; }
