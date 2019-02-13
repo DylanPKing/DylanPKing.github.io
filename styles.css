@@ -80,6 +80,10 @@ li a.header-link:hover { background-color: #111; }
 	margin-top: 10%;
 }
 
+#contact {
+	text-align: center;
+}
+
 div.on-left {
 	float: left;
 	margin-left: 6% !important;
