@@ -42,7 +42,7 @@ li a.header-link:hover { background-color: #111; }
 	overflow: hidden;
 	position: relative;
 	width: 100%;
-	background-color: rgb(95, 95, 95);
+	background-color: aliceblue;
 	text-align: center;
 }
 #skills-container {
@@ -57,7 +57,7 @@ li a.header-link:hover { background-color: #111; }
 	overflow: hidden;
 	position: relative;
 	width: 100%;
-	background-color: aliceblue;
+	background-color: rgb(95, 95, 95);
 }
 
 #project-container {
@@ -109,6 +109,7 @@ div.box {
 
 div.box-skill {
 	display: inline-block;
+	box-shadow: 0 0 0 0;
 	width: 25%;
 	margin: 1%;
 }
