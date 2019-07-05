@@ -177,3 +177,16 @@ img.favi-lang {
 	padding-inline: 3%;
 	filter: grayscale(100%);
 }
+div.proj-link {
+	color: rgb(95, 95, 95);
+	text-decoration: none;
+	margin: 2%;
+	padding: 3%;
+	border: 2px solid rgb(95, 95, 95);
+	border-radius: 5px;
+	float: left;
+}
+div.proj-link:hover {
+	color: azure;
+	background-color: rgb(95, 95, 95);
+}
