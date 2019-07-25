@@ -34,7 +34,11 @@ li a.header-link:hover { background-color: #111; }
 	position: relative;
 	overflow: hidden;
 	width: 100%;
+	background-image: url("img/IntroBackground.png");
 	background-color: aliceblue;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover; 
 	z-index: 1;
 }
 
@@ -64,6 +68,9 @@ div.box-container {
 	overflow: hidden;
 	position: relative;
 	width: 100%;
+	background-image: url("img/InterestsBackground.png");
+	background-position: center;
+	background-size: cover;
 	background-color: rgb(95, 95, 95);
 }
 
