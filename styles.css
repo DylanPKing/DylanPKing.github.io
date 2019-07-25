@@ -85,6 +85,10 @@ div.box-container {
 	position: relative;
 	overflow: hidden;
 	width: 100%;
+	background-image: url("img/WorkBackground.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: -800px;
 	background-color: rgb(95, 95, 95);
 }
 
