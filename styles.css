@@ -81,6 +81,15 @@ div.box-container {
 	background-color: rgb(95, 95, 95);
 }
 
+#back-to-top-container {
+	overflow: hidden;
+	position: relative;
+	background-color: rgb(95, 95, 95);
+	padding: 3%;
+	text-align: center;
+
+}
+
 #work {
 	float: right;
 	margin-top: 10%;
@@ -88,6 +97,25 @@ div.box-container {
 
 #contact {
 	text-align: center;
+	padding-top: 0.5%;
+	padding-bottom: 2%;
+}
+
+div.btt-link {
+	position:relative;
+	background-color:azure;
+	padding: 1%;
+	float:none;
+	display: inline-block;
+	transition: .5s;
+	text-decoration: none;
+	color: rgb(95, 95, 95);
+	border: 2px solid rgb(95, 95, 95);
+	border-radius: 5px;
+}
+
+div.btt-link:hover {
+	font-weight: bold;
 }
 
 div.on-left {
@@ -145,6 +173,7 @@ div.project-container-class {
 	overflow: hidden;
 	display: inline-block;
 	width: 25%;
+	padding-bottom: 4%;
 }
 
 h1 {
@@ -166,6 +195,7 @@ i.favi-link {
 	font-size: 60px;
 	color: darkgrey;
 	padding-inline: 2%;
+	transition:.5s;
 }
 i.favi-link:hover {
 	color: initial;
@@ -177,7 +207,9 @@ img.favi-lang {
 	padding-inline: 3%;
 	filter: grayscale(100%);
 }
+
 div.proj-link {
+	position: absolute;
 	color: rgb(95, 95, 95);
 	text-decoration: none;
 	margin: 2%;
@@ -185,6 +217,8 @@ div.proj-link {
 	border: 2px solid rgb(95, 95, 95);
 	border-radius: 5px;
 	float: left;
+	bottom: 0;
+	transition: .5s;
 }
 div.proj-link:hover {
 	color: azure;

@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Dylan King</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<link rel="stylesheet" href="styles.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
 			  integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
@@ -10,17 +11,16 @@
 	</head>
 
 	<body>
-
 		<!-- Navigation Bar -->
 		<div id="home">
 			<ul id="header-container">
-				<li class="header-link-container"><a class="header-link" href="#contact">Contact Me</a></li>
-				<li class="header-link-container"><a class="header-link" href="#work">My Work</a></li>
-				<li class="header-link-container"><a class="header-link" href="#skills">Skills</a></li>
-				<li class="header-link-container"><a class="header-link" href="#interests">Interests</a></li>
-				<li class="header-link-container"><a class="header-link" href="#about">About</a></li>
-				<li class="header-link-container"><a class="header-link" href="#home">Home</a></li>
-				<li id="title" class="header-link-container"><a class="header-link" href="#home">Dylan King</a></li>
+				<li class="header-link-container"><a id="button" class="header-link" href="#contact">Contact Me</a></li>
+				<li class="header-link-container"><a id="button" class="header-link" href="#work">My Work</a></li>
+				<li class="header-link-container"><a id="button" class="header-link" href="#skills">Skills</a></li>
+				<li class="header-link-container"><a id="button"class="header-link" href="#interests">Interests</a></li>
+				<li class="header-link-container"><a id="button" class="header-link" href="#about">About</a></li>
+				<li class="header-link-container"><a id="button" class="header-link" href="#home">Home</a></li>
+				<li id="title" class="header-link-container"><a id="button" class="header-link" href="https://dylanpking.github.io/">Dylan King</a></li>
 			</ul>
 		</div>
 
@@ -39,6 +39,7 @@
 			</div>
 		</div>
 
+		<!-- Interests -->
 		<div id="interests-container">
 			<div id="interests" class="box body-of-text on-grey on-left">
 				<h1>Interests</h1>
@@ -102,7 +103,7 @@
 					<h2>HTML/CSS</h2>
 					<p>You're looking at my main Web Design project! While I had worked on HTML/CSS previously, my first
 						major project is this very website. All the CSS is my own, I haven't used any external libraries,
-						and as of right now, I plan on using my own images and assets.
+						except for favicons. As of right now, I plan on using my own images and assets.
 					</p>
 				</div>
 				<div class="box on-grey box-skill">
@@ -243,6 +244,15 @@
 				<a href="https://www.linkedin.com/in/dylanpking/"><i class="fab fa-linkedin favi-link"></i></a>
 				<a href="mailto:kingdylan11@outlook.com"><i class="far fa-envelope favi-link"></i></a>
 			</div>
+		</div>
+
+		<!-- Back to top quick link -->
+		<div id="back-to-top-container">
+			<a href="#home">
+				<div class="btt-link" id="button">
+					Back to top
+				</div>
+			</a>
 		</div>
 	</body>
 </html>
