@@ -205,7 +205,8 @@ i.favi-lang {
 i.favi-link {
 	font-size: 60px;
 	color: darkgrey;
-	padding-inline: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
 	transition:.5s;
 }
 i.favi-link:hover {
@@ -214,8 +215,10 @@ i.favi-link:hover {
 
 img.favi-lang {
 	height: 75px;
-	padding-block: 2%;
-	padding-inline: 3%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 3%;
+	padding-right: 3%;
 	filter: grayscale(100%);
 }
 
