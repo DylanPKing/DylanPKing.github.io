@@ -236,7 +236,17 @@ div.proj-link {
 	bottom: 0;
 	transition: .5s;
 }
+
 div.proj-link:hover {
 	color: azure;
 	background-color: rgb(95, 95, 95);
+}
+
+a.proj-info-link {
+	color: rgb(95, 95, 95);
+	text-decoration: none;
+}
+
+a.proj-info-link:hover {
+	color: black;
 }
