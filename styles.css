@@ -273,16 +273,8 @@ a.proj-info-link:hover {
 		text-align: center;
 		padding: 14px 16px;
 		text-decoration: none;
-		margin-top: -0.1%;
-	}
-
-	li.header-link {
-		display: block;
-		color: white;
-		text-align: center;
-		padding: 14px 16px;
-		text-decoration: none;
-		margin-top: .75%;
+		margin-top: 0.75%;
+		float: right;
 	}
 
 	li.header-link:hover { background-color: #111; }
@@ -291,8 +283,16 @@ a.proj-info-link:hover {
 		display: none;
 	}
 
-	#menu-button:hover .header-link-right {
+	li a {
 		display: block;
+		color: #000;
+		padding: 8px 16px;
+		text-decoration: none;
+	}
+
+	#menu-button:hover .header-link-right {
+		display: initial;
+		overflow: visible;
 	}	
 
 	div.on-right {
