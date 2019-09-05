@@ -305,14 +305,18 @@ a.proj-info-link:hover {
 
 	div.proj-link {	position: relative; }
 
-	i.favi-lang { font-size: 120px; }
+	i.favi-lang { font-size: 240px; }
 
-	img.favi-lang {	height: 150px; }
+	img.favi-lang {	height: 300px; }
 
 	i.favi-link {
-		font-size: 80px;
+		font-size: 160px;
 		padding-left: 6%;
 		padding-right: 6%;
 		
+	}
+
+	div.proj-link {
+		font-size: 250%;
 	}
 }
