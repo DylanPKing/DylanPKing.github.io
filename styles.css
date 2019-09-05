@@ -255,9 +255,9 @@ a.proj-info-link:hover {
 @media only screen and (max-aspect-ratio: 1333 / 1000) {
 	h1 { font-size: 600%; }
 
-	h2 { font-size: 350%; }
+	h2 { font-size: 450%; }
 
-	p { font-size: 200%; }
+	p { font-size: 300%; }
 
 	div.on-right {
 		width: 85%;
