@@ -1,33 +1,3 @@
-@media screen and (max-aspect-ratio: 1333 / 1000) {
-	div.on-right {
-		width: 60% !important;
-	}
-
-	div.on-left {
-		width: 60% !important;
-	}
-
-	#skills-container {
-		margin-left: 15% !important;
-	}
-
-	div.box-skill {
-		width: 80% !important;
-	}
-
-	#proj-container {
-		margin-left: 14.5% !important;
-	}
-
-	div.project-container-class {
-		width: 80% !important;
-	}
-
-	div.proj-link {
-		position: relative !important;
-	}
-}
-
 #title {
 	float: left;
 	font-size: 120%;
@@ -140,7 +110,7 @@ div.box-container {
 #contact {
 	text-align: center;
 	padding-top: 0.5%;
-	padding-bottom: 2%;
+	padding-bottom: 8%;
 }
 
 div.btt-link {
@@ -158,16 +128,6 @@ div.btt-link {
 
 div.btt-link:hover {
 	font-weight: bold;
-}
-
-div.on-left {
-	float: left;
-	margin-left: 6% !important;
-}
-
-div.on-right {
-	float: right;
-	margin-right: 6% !important;
 }
 
 body {
@@ -268,6 +228,16 @@ div.proj-link {
 	transition: .5s;
 }
 
+div.on-left {
+	float: left;
+	margin-left: 6%;
+}
+
+div.on-right {
+	float: right;
+	margin-right: 6%;
+}
+
 div.proj-link:hover {
 	color: azure;
 	background-color: rgb(95, 95, 95);
@@ -280,4 +250,69 @@ a.proj-info-link {
 
 a.proj-info-link:hover {
 	color: black;
+}
+
+@media only screen and (max-aspect-ratio: 1333 / 1000) {
+	h1 { font-size: 450%; }
+
+	h2 { font-size: 250%; }
+
+	p { font-size: 150%; }
+
+	div.on-right {
+		width: 85%;
+		float: initial;
+		margin-left: 2.5%;
+		margin-top: 12%;
+		padding-top: .5%;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	div.on-left {
+		width: 85%;
+		float: initial;
+		margin-left: 2.5%;
+		margin-top: 12%;
+		padding-top: .5%;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	div.on-white {
+		background: rgba(95, 95, 95, 0.95);
+	}
+
+	#interests {
+		background: rgba(240, 255, 255, 0.95);
+	}
+
+	#work {
+		float: initial;
+	}
+
+	#skills-container { margin-left: 15%; }
+
+	div.box-skill {	width: 80%; }
+
+	#proj-container { margin-left: 10%; }
+
+	div.project-container-class {
+		width: 100%;
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+
+	div.proj-link {	position: relative; }
+
+	i.favi-lang { font-size: 120px; }
+
+	img.favi-lang {	height: 150px; }
+
+	i.favi-link {
+		font-size: 80px;
+		padding-left: 6%;
+		padding-right: 6%;
+		
+	}
 }
