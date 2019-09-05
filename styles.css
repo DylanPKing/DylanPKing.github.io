@@ -16,6 +16,10 @@
 	background-color: #333;
 	z-index: 2;
 }
+
+#menu-button {
+	display: none;
+}
   
 li.header-link-container { float: right; }
   
@@ -259,6 +263,38 @@ a.proj-info-link:hover {
 
 	p { font-size: 300%; }
 
+	#home {
+		font-size: 300%;
+	}
+
+	#menu-button {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		margin-top: -0.1%;
+	}
+
+	li.header-link {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		margin-top: .75%;
+	}
+
+	li.header-link:hover { background-color: #111; }
+
+	li.header-link-right {
+		display: none;
+	}
+
+	#menu-button:hover .header-link-right {
+		display: block;
+	}	
+
 	div.on-right {
 		width: 85%;
 		float: initial;
@@ -318,5 +354,10 @@ a.proj-info-link:hover {
 
 	div.proj-link {
 		font-size: 250%;
+	}
+
+	div.btt-link {
+		font-size: 250%;
+		padding: 2%;
 	}
 }
